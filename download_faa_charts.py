@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
     pdfs_url_base = 'https://aeronav.faa.gov/d-tpp/{}'.format(cycle_number)
 
-    print("Downloading metadata XML..."
+    print("Downloading metadata XML...")
     metadata_xml_url ='https://aeronav.faa.gov/d-tpp/{}/xml_data/d-tpp_Metafile.xml'.format(cycle_number)
     wget.download(metadata_xml_url,args.TargetFolder)
     print("Metadata XML download complete.")
