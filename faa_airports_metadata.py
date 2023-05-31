@@ -77,4 +77,4 @@ world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
 ax = world[world.continent == 'North America'].plot(color='lightgray', edgecolor='white')
 # We can now plot our ``GeoDataFrame``
 world.plot()
-os.remove(excel_file_path)
+#os.remove(excel_file_path)
